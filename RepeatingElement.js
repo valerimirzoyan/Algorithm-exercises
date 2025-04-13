@@ -12,6 +12,11 @@ function findFirstRepeatingElement(arr) {
 }
 
 // Example usage:
-const numbers = [4, 5, 6, 3, 5, 7, 8];
-const result = findFirstRepeatingElement(numbers);
-console.log(result); // Output: 5
+let size = prompt("Enter the size:");
+let numbers = [];
+numbers.length = size;
+for (let i = 0; i < size; i++) {
+numbers[i] = prompt("Enter the " + i + " elemet");
+}
+let result = findFirstRepeatingElement(numbers);
+console.log(result);
