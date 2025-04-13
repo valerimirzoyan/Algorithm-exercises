@@ -19,6 +19,5 @@ function longestValidParentheses(s) {
     return maxLen;
 }
 
-
-console.log(longestValidParentheses("(()"));
-console.log(longestValidParentheses(")()())"));
+let input = prompt("Enter:");
+console.log(longestValidParentheses(input));
